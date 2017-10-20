@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: KlavikaRegularPlain;
+}
+@font-face{
+    font-family: 'KlavikaBold';
+    src: url("./klavikaboldbold-webfont.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'KlavikaRegularPlain';
+	src: url('./klavikaregular-plain-webfont.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'KlavikaLightPlain';
+	src: url('./klavikalight-plain-webfont.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'KlavikaMediumItalic';
+	src: url('./klavikamedium-italic-webfont.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'KlavikaRegularItalic';
+	src: url('./klavikaregular-italic-webfont.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	background-color: #46555f;
+	margin: 1%;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: KlavikaRegularPlain;
+}
+td{
+	font-family: KlavikaRegularPlain;
+	font-size: 12pt;
+	text-align: center;
+	padding: 1%;
+}
+table{
+	border-collapse: collapse;
+	margin-top: 10px;
+	/*box-shadow: 5px 5px 10px #000000;*/
+}
+table th{
+	background-color: #555555;
+	color: #ffffff;
+}
+table tr:nth-child(odd){
+	background-color:#f1f1f1;
+}
+table tr:nth-child(even){
+	background-color:#ffffff;
+}
+footer{
+	text-align: center;
+	font-family: KlavikaRegularPlain;
+	font-size: 10pt;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 1%;
+	line-height: 175%;
+}
+.opcoes{
+	font-size: 14pt;
+}
+.pequeno{
+	font-family: KlavikaRegularPlain;
+	font-size: 10pt;
+}
+.grande{
+	font-family: KlavikaRegularPlain;
+	font-size: 16pt;
+}
+.text{
+	font-family: KlavikaRegularPlain;
+	font-size: 14pt;
+	text-align: justify;
+}
+.barra_nome{
+	font-family: KlavikaRegularPlain;
+	font-size: 13px;
+	background-color: #999999;
+	margin: 0px;
+	color: #ffffff;
+}
+.barra_nome a{
+	margin: 0px;
+	color: #ffffff;
+	text-decoration: none;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	-webkit-transition: all 0.15s ease;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.15s;
+	-webkit-transition-timing-function: ease;
+	-webkit-transition-delay: initial;
+	-moz-transition: all 0.15s ease;
+	-ms-transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+	transition-property: all;
+	transition-duration: 0.15s;
+	transition-timing-function: ease;
+	transition-delay: initial;
+}
+.barra_nome a:hover{
+	background: #dddddd;
+	color:#666666;
+}
+.titulo{
+	font-family: KlavikaRegularPlain;
+	font-size: 24pt;
+	padding: 2%;
+	color: black;
+}
+.error{
+	font-family: KlavikaBold;
+	font-size: 12pt;
+	color: red;
+}
+.wrap{
+	text-align: center;
+	font-size: 16pt;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px%;
+	line-height: 175%;
+	background-color: white;
+	padding: 1%;
+	box-shadow: 5px 5px 10px #000000;
+}
+.left{
+	float: left;
+	margin-left: 2%;
+}
+.right{
+	float: right;
+	margin-right: 2%;
+}
