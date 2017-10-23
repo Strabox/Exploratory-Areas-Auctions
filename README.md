@@ -5,3 +5,7 @@ Project to 2014/2015 Databases course of Bachelors Degree in Computer Science an
 ## Goals
 
 A database system with a web frontend to manage concession of oceans exploratory areas
+
+## Project Group
+
+- https://github.com/carboned4
